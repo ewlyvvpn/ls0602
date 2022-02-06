@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+.clinets-list{
+    width: 50%;
+    height: 300px;
+    overflow: auto;
+    border: 2px solid blue;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search{
+    width: 40%;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    padding: 5px;
+    cursor: pointer;
+}
+
+span{
+    font-size: 20px;
+}
